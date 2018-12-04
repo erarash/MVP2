@@ -31,3 +31,71 @@ input[type="text"] {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+#Champion {
+  padding-left: 300px;
+  padding-top: 300px;
+  color: aliceblue;
+  line-height: 30px;
+}
+.header {
+  font-family: Roboto, sans-serif;
+}
+.name {
+  font-size: 50px;
+  color: #f1e6d0;
+}
+.title {
+  font-size: 20px;
+}
+.champImg {
+}
+#Tips {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+}
+#Lore {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+}
+#Spells {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+}
+.Tips {
+  display: inline-block;
+  font-size: 20px;
+}
+.Lore {
+  display: inline-block;
+  padding-left: 500px;
+
+  font-size: 20px;
+}
+.Spells {
+  display: inline-block;
+  padding-left: 540px;
+  font-size: 20px;
+}
+.longlore {
+  margin-right: 300px;
+  font-size: 30px;
+  line-height: 45px;
+}
+.loretitle {
+  font-size: 40px;
+}
+.spellstitle {
+  font-size: 40px;
+}
+.tipstitle {
+  font-size: 40px;
+}
+.spellLetter {
+  font-size: 40px;
+}
+.spellName {
+  font-size: 27px;
+}
+.spellDescription {
+  font-size: 20px;
+}

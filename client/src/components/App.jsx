@@ -14,7 +14,6 @@ export default class App extends React.Component {
       <div>
         <TopBar />
         <ChampSelect />
-        <Champion />
       </div>
     );
   }
