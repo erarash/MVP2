@@ -13,7 +13,6 @@ server.use(morgan("dev"));
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(express.static(path.join(__dirname, "../client/dist")));
-
 server.use("/api", router);
 
 server.listen(port, () => console.log(`connected to ${port}`));

@@ -1,0 +1,33 @@
+.inputHeader {
+  position: absolute;
+  height: 50px;
+  top: 25%;
+  left: 40%;
+  color: aliceblue;
+}
+.input {
+  position: relative;
+  height: 50px;
+  width: 800px;
+  top: 50%;
+  left: 28%;
+  text-align: center;
+}
+input[type="text"] {
+  font-size: 35px;
+}
+.button {
+  border-radius: 12px;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 35%;
+  left: 50%;
+  margin-left: -50px; /* margin is -0.5 * dimension */
+  margin-top: -25px;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
